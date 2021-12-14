@@ -5,7 +5,7 @@ import Posts from '../Screens/Posts';
 
 const MainStack = createStackNavigator();
 
-export function MainStackNavigator() {
+export default function MainStackNavigator() {
     return (
         <MainStack.Navigator>
             <MainStack.Screen

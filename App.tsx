@@ -12,7 +12,8 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import {MainStackNavigator} from './src/Navigators/MainStackNavigator';
+import MainStackNavigator from './src/Navigators/MainStackNavigator';
+import DrawerNavigator from './src/Navigators/DrawerNavigator';
 
 const RootStack = createStackNavigator();
 
@@ -27,13 +28,7 @@ const App = () => {
 
     return (
         <NavigationContainer>
-            <RootStack.Navigator
-                screenOptions={{
-                    headerShown: false,
-                    animationEnabled: false,
-                }}>
-                {renderScreens()}
-            </RootStack.Navigator>
+            <DrawerNavigator />
         </NavigationContainer>
     );
 };
