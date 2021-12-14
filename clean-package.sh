@@ -33,7 +33,7 @@ npm cache verify
 
 # NPM Install
 echo "\n${GREEN}NPM Install${CLEAR}"
-npm ci
+npm install
 
 # iOS build folder
 echo "\n${GREEN}iOS build folder${CLEAR}"
@@ -56,5 +56,10 @@ cd ..
 echo "\n${GREEN}Pod packages${CLEAR}"
 cd ios
 rm Podfile.lock
+pod deintegrate
 pod install --repo-update
-pod update
+cd ..
+
+# yarn cache
+echo "\n${GREEN}Yarn cache${CLEAR}"
+yarn start --reset-cache
