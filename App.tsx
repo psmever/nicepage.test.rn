@@ -15,6 +15,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 import MainStackNavigator from './src/navigators/MainStackNavigator';
 import DrawerNavigator from './src/navigators/DrawerNavigator';
 
+import {AppProvider} from './src/contexts/AppContext';
+
 const RootStack = createStackNavigator();
 
 const App = () => {
@@ -28,7 +30,9 @@ const App = () => {
 
     return (
         <NavigationContainer>
-            <DrawerNavigator />
+            <AppProvider>
+                <DrawerNavigator />
+            </AppProvider>
         </NavigationContainer>
     );
 };
