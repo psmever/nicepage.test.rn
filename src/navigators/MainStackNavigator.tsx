@@ -1,13 +1,16 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import Home from '../Screens/Home';
-import Posts from '../Screens/Posts';
+import Home from '../screens/home';
+import Posts from '../screens/posts';
 
 const MainStack = createStackNavigator();
 
 export default function MainStackNavigator() {
     return (
-        <MainStack.Navigator>
+        <MainStack.Navigator
+            screenOptions={{
+                headerShown: false,
+            }}>
             <MainStack.Screen
                 name={'Home'}
                 component={Home}

@@ -12,8 +12,8 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import MainStackNavigator from './src/Navigators/MainStackNavigator';
-import DrawerNavigator from './src/Navigators/DrawerNavigator';
+import MainStackNavigator from './src/navigators/MainStackNavigator';
+import DrawerNavigator from './src/navigators/DrawerNavigator';
 
 const RootStack = createStackNavigator();
 

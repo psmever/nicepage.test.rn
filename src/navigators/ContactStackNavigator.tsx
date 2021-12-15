@@ -3,7 +3,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import Posts from '../Screens/Posts';
+import Posts from '../screens/posts';
 
 const Stack = createStackNavigator();
 

@@ -15,13 +15,13 @@ const BottomTabNavigator = () => {
         <Tab.Navigator
             screenOptions={{
                 headerShown: false,
-                tabBarActiveTintColor: '#e91e63',
+                tabBarActiveTintColor: '#1e4de9',
             }}>
             <Tab.Screen
                 name="Home"
                 component={MainStackNavigator}
                 options={{
-                    tabBarLabel: 'Home',
+                    tabBarLabel: 'home',
                     tabBarIcon: ({color, size}) => (
                         <MaterialCommunityIcons
                             name="home"

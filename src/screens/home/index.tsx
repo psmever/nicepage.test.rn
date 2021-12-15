@@ -3,11 +3,11 @@ import {View, Button} from 'react-native';
 
 export default ({navigation}: {navigation: any}) => {
     const handleClick = () => {
-        navigation.navigate('Login');
+        navigation.navigate('Posts');
     };
     return (
         <View>
-            <Button title={'Home'} onPress={handleClick}>
+            <Button title={'home'} onPress={handleClick}>
                 Post
             </Button>
         </View>
