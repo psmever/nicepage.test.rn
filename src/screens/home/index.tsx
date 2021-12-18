@@ -1,5 +1,5 @@
 import React, {useEffect, useContext} from 'react';
-import {View, Button} from 'react-native';
+import {View, Button, StyleSheet} from 'react-native';
 import AppContext from '../../contexts/AppContext';
 
 export default ({navigation}: {navigation: any}) => {
@@ -14,10 +14,18 @@ export default ({navigation}: {navigation: any}) => {
     }, []);
 
     return (
-        <View>
+        <View style={styles.container}>
             <Button title={'home'} onPress={handleClick}>
                 Post
             </Button>
         </View>
     );
 };
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+});

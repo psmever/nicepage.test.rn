@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* nicepagetestrnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* nicepagetestrnTests.m */; };
-		0481B7D88EA9D71A48EDA66C /* libPods-nicepagetestrn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF053AFC2AEE752971ADF051 /* libPods-nicepagetestrn.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		55BF6BEB16CC077D2F2F19A0 /* libPods-nicepagetestrn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB98C86AD722B04931AACA4 /* libPods-nicepagetestrn.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E9970C06C3C396D8B9C63D46 /* libPods-nicepagetestrn-nicepagetestrnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B8C8641B429BEE2623FAA /* libPods-nicepagetestrn-nicepagetestrnTests.a */; };
+		9FC7849E32A1303AD74BC328 /* libPods-nicepagetestrn-nicepagetestrnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF160A5943FF9178AAB8130F /* libPods-nicepagetestrn-nicepagetestrnTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nicepagetestrn/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nicepagetestrn/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = nicepagetestrn/main.m; sourceTree = "<group>"; };
-		27CF9F6EBAD7A86D1A817590 /* Pods-nicepagetestrn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nicepagetestrn.release.xcconfig"; path = "Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn.release.xcconfig"; sourceTree = "<group>"; };
-		640186CB50E2A4CE77A20458 /* Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig"; path = "Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig"; sourceTree = "<group>"; };
+		42D8973C6B33421FCF26959B /* Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig"; path = "Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig"; sourceTree = "<group>"; };
+		6AB98C86AD722B04931AACA4 /* libPods-nicepagetestrn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nicepagetestrn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nicepagetestrn/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C93B8C8641B429BEE2623FAA /* libPods-nicepagetestrn-nicepagetestrnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nicepagetestrn-nicepagetestrnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E07EC39A2C811442F7F39922 /* Pods-nicepagetestrn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nicepagetestrn.debug.xcconfig"; path = "Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn.debug.xcconfig"; sourceTree = "<group>"; };
+		BF160A5943FF9178AAB8130F /* libPods-nicepagetestrn-nicepagetestrnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nicepagetestrn-nicepagetestrnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2212153F2877B9777DF8463 /* Pods-nicepagetestrn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nicepagetestrn.debug.xcconfig"; path = "Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn.debug.xcconfig"; sourceTree = "<group>"; };
+		D5651D0E5C274FF33DB54CB5 /* Pods-nicepagetestrn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nicepagetestrn.release.xcconfig"; path = "Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn.release.xcconfig"; sourceTree = "<group>"; };
+		DAC0120626F5F2CA78DDBB46 /* Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig"; path = "Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EF053AFC2AEE752971ADF051 /* libPods-nicepagetestrn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nicepagetestrn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F43F0DC4C13FB65078D6F1E7 /* Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig"; path = "Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9970C06C3C396D8B9C63D46 /* libPods-nicepagetestrn-nicepagetestrnTests.a in Frameworks */,
+				9FC7849E32A1303AD74BC328 /* libPods-nicepagetestrn-nicepagetestrnTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0481B7D88EA9D71A48EDA66C /* libPods-nicepagetestrn.a in Frameworks */,
+				55BF6BEB16CC077D2F2F19A0 /* libPods-nicepagetestrn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EF053AFC2AEE752971ADF051 /* libPods-nicepagetestrn.a */,
-				C93B8C8641B429BEE2623FAA /* libPods-nicepagetestrn-nicepagetestrnTests.a */,
+				6AB98C86AD722B04931AACA4 /* libPods-nicepagetestrn.a */,
+				BF160A5943FF9178AAB8130F /* libPods-nicepagetestrn-nicepagetestrnTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		9B8DE45D3E7FA3B3F0811A64 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E07EC39A2C811442F7F39922 /* Pods-nicepagetestrn.debug.xcconfig */,
-				27CF9F6EBAD7A86D1A817590 /* Pods-nicepagetestrn.release.xcconfig */,
-				F43F0DC4C13FB65078D6F1E7 /* Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig */,
-				640186CB50E2A4CE77A20458 /* Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig */,
+				C2212153F2877B9777DF8463 /* Pods-nicepagetestrn.debug.xcconfig */,
+				D5651D0E5C274FF33DB54CB5 /* Pods-nicepagetestrn.release.xcconfig */,
+				DAC0120626F5F2CA78DDBB46 /* Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig */,
+				42D8973C6B33421FCF26959B /* Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nicepagetestrnTests" */;
 			buildPhases = (
-				0D0D5363B2F6A08A076EB9EA /* [CP] Check Pods Manifest.lock */,
+				36DEE7B45202AA74A877D8B3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				579F9CBC7687B1EBA96FABC2 /* [CP] Embed Pods Frameworks */,
-				84D296F0494E688710D517AA /* [CP] Copy Pods Resources */,
+				AEB01A308FB933D04B403824 /* [CP] Embed Pods Frameworks */,
+				2A3F0DD23F15F5D62A17ED9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nicepagetestrn" */;
 			buildPhases = (
-				171514D28282EC29FD17767F /* [CP] Check Pods Manifest.lock */,
+				97DBBD639152F0D2EBF954F2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				241C3BCFCD4BF342004EDB59 /* [CP] Embed Pods Frameworks */,
-				9417CE741B130AFE626C132F /* [CP] Copy Pods Resources */,
+				133B06DCCA4B505A2E862805 /* [CP] Embed Pods Frameworks */,
+				B507345CF6E3ABAB44F51F5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,7 +264,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0D0D5363B2F6A08A076EB9EA /* [CP] Check Pods Manifest.lock */ = {
+		133B06DCCA4B505A2E862805 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A3F0DD23F15F5D62A17ED9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36DEE7B45202AA74A877D8B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,7 +320,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		171514D28282EC29FD17767F /* [CP] Check Pods Manifest.lock */ = {
+		97DBBD639152F0D2EBF954F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,24 +342,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		241C3BCFCD4BF342004EDB59 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn/Pods-nicepagetestrn-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		579F9CBC7687B1EBA96FABC2 /* [CP] Embed Pods Frameworks */ = {
+		AEB01A308FB933D04B403824 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -342,24 +359,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		84D296F0494E688710D517AA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nicepagetestrn-nicepagetestrnTests/Pods-nicepagetestrn-nicepagetestrnTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9417CE741B130AFE626C132F /* [CP] Copy Pods Resources */ = {
+		B507345CF6E3ABAB44F51F5C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,7 +428,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F43F0DC4C13FB65078D6F1E7 /* Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig */;
+			baseConfigurationReference = DAC0120626F5F2CA78DDBB46 /* Pods-nicepagetestrn-nicepagetestrnTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -455,7 +455,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 640186CB50E2A4CE77A20458 /* Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig */;
+			baseConfigurationReference = 42D8973C6B33421FCF26959B /* Pods-nicepagetestrn-nicepagetestrnTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -479,7 +479,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E07EC39A2C811442F7F39922 /* Pods-nicepagetestrn.debug.xcconfig */;
+			baseConfigurationReference = C2212153F2877B9777DF8463 /* Pods-nicepagetestrn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27CF9F6EBAD7A86D1A817590 /* Pods-nicepagetestrn.release.xcconfig */;
+			baseConfigurationReference = D5651D0E5C274FF33DB54CB5 /* Pods-nicepagetestrn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
